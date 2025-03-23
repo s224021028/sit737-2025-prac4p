@@ -7,10 +7,10 @@ To run this microservice, you need to have the following installed:
 
 ## Installation
 - Clone the repository:
-git clone https://github.com/s224021028/sit737-2025-prac4p.git
+```bat git clone https://github.com/s224021028/sit737-2025-prac4p.git```
 
 - Install dependencies:
-npm install express winston
+```bat npm install express winston```
 
 ## Running the Microservice
 Start the server with:
