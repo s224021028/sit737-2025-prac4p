@@ -1,0 +1,3 @@
+{"level":"error","message":"Zero division: Division by 0 is not possible","service":"calculator-microservice"}
+{"level":"error","message":"Zero division: Division by 0 is not possible","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input: Input parameters are not numbers","service":"calculator-microservice"}
