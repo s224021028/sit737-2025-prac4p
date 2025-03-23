@@ -20,15 +20,13 @@ Start the server with:
 The server will run on port 3000 by default and log a startup message.
 
 ## Testing the Microservice
-To test the microservice, you can:
-
+<b>To test the microservice, you can:</b>
 - Addition: http://localhost:3000/add?num1=5&num2=3
 - Subtraction: http://localhost:3000/sub?num1=10&num2=4
 - Multiplication: http://localhost:3000/mul?num1=6&num2=7
 - Division: http://localhost:3000/div?num1=20&num2=5
 
 <b>Check the logs:</b>
-
 - Console output for all logs during development
 - logs/error.log for error messages
 - logs/combined.log for all non-error messages
