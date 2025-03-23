@@ -55,7 +55,7 @@ function handleErrors(operator, num1, num2)
         return 2
     }
     // Check if numbers exceed JavaScript's safe number range
-    else if (num1 > Number.MAX_VALUE || num1 < -Number.MIN_VALUE || num2 > Number.MAX_VALUE || num2 < -Number.MIN_VALUE)
+    else if (num1 > Number.MAX_SAFE_INTEGER || num1 < Number.MIN_SAFE_INTEGER || num2 > Number.MAX_SAFE_INTEGER || num2 < Number.MIN_SAFE_INTEGER)
     {
         logger.error("Range exceeded: Input parameters have exceeded min/max range limits")
         return 3
